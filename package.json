@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "venv": "python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt",
+    "delete-venv": "rm -rf venv",
     "start": "python manage.py runserver",
     "makemigrations": "python manage.py makemigrations",
     "migrate": "python manage.py makemigrations",
