@@ -8,8 +8,7 @@
     "delete-venv": "rm -rf venv",
     "start": "python manage.py runserver",
     "makemigrations": "python manage.py makemigrations",
-    "migrate": "python manage.py makemigrations",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "migrate": "python manage.py migrate"
   },
   "author": "",
   "license": "ISC"
