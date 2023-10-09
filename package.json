@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "venv": "python -m venv venv && source venv/bin/activate && pip install -r requirements.txt",
+    "run": "python manage.py runserver",
+    "makemigrations": "python manage.py makemigrations",
+    "migrate": "python manage.py makemigrations",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
